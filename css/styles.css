@@ -173,3 +173,46 @@ body {
 .fa-home {
   margin-top: 14px;
 }
+
+.about-words {
+  margin-top: 100px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.strong {
+  font-size: 20px;
+}
+.discription {
+  width: 70%;
+  line-height: 25px;
+  padding: 10px;
+}
+.list {
+
+}
+
+.about-img {
+}
+.image {
+  background-image: radial-gradient(
+  circle closest-side,
+  rgb(233, 225, 225),
+  rgb(223, 221, 221),
+  #9dccdb
+  );
+  height: 300px;
+  width: 300px;
+  background-color: #328da8;
+  border-radius: 100%;
+  margin-top: 80px;
+  margin-left: 50px;
+  }
+.myimg {
+  width: 150px;
+  height: 150px;
+  margin-top: 75px;
+  margin-left: 75px;
+  border-radius: 100%;
+}
