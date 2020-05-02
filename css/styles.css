@@ -1,0 +1,175 @@
+body {
+  background: #f1f4f7;
+  padding-top: 60px;
+  font-size: 14px;
+  color: #444444;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*-- STYLES FOR NAVBAR--*/
+.navbar-custom {
+  background: #fbae1c;
+  height: 60px; }
+
+.navbar-header .navbar-brand {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  height: 60px;
+  padding-top: 18px; }
+
+.navbar-header .navbar-brand span {
+  color: #ffff; }
+
+.navbar-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  margin-top: 10px;
+}
+.user-icon:hover {
+  background-color: rgba(51, 51, 51, 0.267);
+}
+.navbar-toggle:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+.icon-bar {
+  background: #fff;
+} 
+.navbar-top-links li:last-child {
+  margin-right: 15px;
+} 
+.nav > li > a:hover, .nav > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  background: none;
+}
+
+/*-- STYLES FOR SIDEBAR--*/
+.sidebar ul {
+  margin: 20px 0px; }
+
+.sidebar form {
+  padding: 10px 0 0 0;
+  margin: 10px 10px 20px 10px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #252525;
+    color: #67757c;
+  }
+  em {
+    width: 3rem;
+  }
+  .navbar-header {
+    width: 100%;
+  } 
+}
+.sidebar ul.nav a:hover, .sidebar ul.nav li.parent ul li a:hover {
+  text-decoration: none;
+  background-color: #474747;
+  color: #fff; }
+
+.sidebar ul.nav .active a, .sidebar ul.nav li.parent a.active, .sidebar ul.nav .active > a:hover, .sidebar ul.nav li.parent a.active:hover, .sidebar ul.nav .active > a:focus, .sidebar ul.nav li.parent a.active:focus {
+  color: #fff;
+  background-color: #665e5e; }
+
+.sidebar ul.nav ul, .sidebar ul.nav ul li {
+  list-style: none;
+  list-style-type: none; }
+
+.sidebar ul.nav li a {
+  height: 50px;
+  font-size: 15px;
+  line-height: 2em;
+  color: #444444; }
+
+.sidebar ul.nav ul.children {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  background: #f9f9f9; }
+
+.sidebar ul.nav ul.children li a {
+  height: 40px;
+  background: #f1f4f7;
+  color: #444444; }
+
+.sidebar ul.nav li.current a {
+  background-color: #30a5ff;
+  color: #fff !important; }
+
+.sidebar ul.nav li.parent ul li a {
+  border: none;
+  display: block;
+  padding-left: 30px;
+  line-height: 40px;
+  border-radius: 0; }
+
+.sidebar ul.nav li.divider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0px 0; }
+
+.profile-sidebar {
+  margin: 20px 0px 10px 10px;
+}
+.profile-sidebar {
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-userpic {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-usertitle {
+  text-align: center;
+  margin-top: 10px;
+}
+.profile-usertitle-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.profile-usertitle-status {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+ /*-- STYLES FOR THE HEADER SECTION OF THE TRADE CENTER CONTENTS --*/
+.breadcrumb {
+  border-radius: 0;
+  padding: 10px 15px 10px 15px;
+  background: #e9ecf2;
+  margin: 0;
+}
+
+.header-title {
+  height: 10rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px rgba(142, 139, 133, 0.32) !important;;
+  margin: 10px;
+  padding: 21px 10px;
+  border-radius: 8px;
+}
+.page-header {
+  color: #455a64;
+  margin-top: 15px;
+  font-weight: 600;
+  border-bottom: 0;
+}
+.fa-home {
+  margin-top: 14px;
+}
