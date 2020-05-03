@@ -1,0 +1,30 @@
+.fa-briefcase {
+    margin-top: 12px;
+}
+.works {
+    margin: 10px;
+}
+.work-text {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.service-pro {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(142, 139, 133, 0.32) !important;
+    border-radius: 0px 10px 0px 15px;
+}
+.sptitle {
+    margin: 10px;
+    line-height: 15px;
+    font-weight: 550;
+    font-size: 15px;
+}
+.sptext {
+    margin: 10px;
+    line-height: 15px;
+
+}
+.btn {
+    margin: 20px 0px 15px 0px;
+}

@@ -8,7 +8,7 @@ body {
 
 /*-- STYLES FOR NAVBAR--*/
 .navbar-custom {
-  background: #fbae1c;
+  background: #328da8;
   height: 60px; }
 
 .navbar-header .navbar-brand {
@@ -43,8 +43,53 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
   background: none;
 }
+.divider, .clear {
+  clear: both; }
+.all-button a {
+  text-align: center;
+  color: #444;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: block; }
+
+a.btn:hover, button:hover {
+  opacity: 0.8; }
+
+a.btn:active, button:active {
+  box-shadow: inset 0px 0px 500px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+
+.navbar {
+  border: 0; }
+
+.navbar input {
+  border: 0;
+  background: #444;
+  color: #fff; }
+
+.navbar input:focus {
+  color: #fff;
+  background: #555;
+  border: 1px solid #30a5ff;
+  outline: 0;
+  box-shadow: inset 0px 0px 0px 1px #30a5ff; }
+
+.user-menu a {
+  color: #fff; }
+
+.user-menu a:hover, .user-menu a:focus {
+  text-decoration: none; }
 
 /*-- STYLES FOR SIDEBAR--*/
+.sidebar {
+  display: block;
+  padding: 0;
+  display: none;
+  box-shadow: none;
+  background: #252525;
+  color: #67757c;
+ }
 .sidebar ul {
   margin: 20px 0px; }
 
@@ -135,6 +180,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.img-responsive {
+  border-radius: 150px;
+}
 .profile-usertitle {
   text-align: center;
   margin-top: 10px;
@@ -149,13 +197,6 @@ body {
 }
 
  /*-- STYLES FOR THE HEADER SECTION OF THE TRADE CENTER CONTENTS --*/
-.breadcrumb {
-  border-radius: 0;
-  padding: 10px 15px 10px 15px;
-  background: #e9ecf2;
-  margin: 0;
-}
-
 .header-title {
   height: 10rem;
   background-color: #ffffff;
@@ -170,8 +211,8 @@ body {
   font-weight: 600;
   border-bottom: 0;
 }
-.fa-home {
-  margin-top: 14px;
+.fa-user {
+  margin-top: 12px;
 }
 
 .about-words {
@@ -188,12 +229,6 @@ body {
   width: 70%;
   line-height: 25px;
   padding: 10px;
-}
-.list {
-
-}
-
-.about-img {
 }
 .image {
   background-image: radial-gradient(
@@ -215,4 +250,64 @@ body {
   margin-top: 75px;
   margin-left: 75px;
   border-radius: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .header-title {
+    height: 10rem;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(142, 139, 133, 0.32) !important;;
+    margin: 10px;
+    padding: 21px 10px;
+    border-radius: 8px;
+  }
+  .page-header {
+    color: #455a64;
+    margin: -25px 0px 0px 30px;
+    font-weight: 600;
+    border-bottom: 0;
+
+  }
+  .fa-user {
+    margin-top: 12px;
+  }
+  
+  .about-words {
+    margin-top: 50px;
+    width: fit-content;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .strong {
+    font-size: 20px;
+  }
+  .discription {
+    width: 100%;
+    line-height: 25px;
+    padding: 10px;
+  }
+  .image {
+    background-image: radial-gradient(
+    circle closest-side,
+    rgb(233, 225, 225),
+    rgb(223, 221, 221),
+    #9dccdb
+    );
+    height: 200px;
+    width: 200px;
+    background-color: #328da8;
+    border-radius: 100%;
+    margin-top: 80px;
+    margin-left: 30px;
+    }
+  .myimg {
+    width: 130px;
+    height: 130px;
+    margin-top: 35px;
+    margin-left: 35px;
+    border-radius: 100%;
+  }
 }
