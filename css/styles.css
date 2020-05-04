@@ -13,10 +13,12 @@ body {
 
 .navbar-header .navbar-brand {
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 500;
   height: 60px;
-  padding-top: 18px; }
+  padding-top: 18px;
+  font-family: Sacramento;
+}
 
 .navbar-header .navbar-brand span {
   color: #ffff; }
