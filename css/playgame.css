@@ -1,0 +1,47 @@
+.fa-gamepad {
+    margin-top: 12px;
+}
+.gamepage {
+    margin: 10px;
+}
+.gametext {
+    font-size: 18px;
+    font-weight: 500px;
+    margin: 10px;
+}
+.site-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.img {
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .fa-gamepad {
+        margin-top: 12px;
+    }
+    .gamepage {
+        margin: 10px;
+    }
+    .gametext {
+        font-size: 18px;
+        font-weight: 500px;
+        margin: 10px;
+    }
+    .service-pro {
+        width: 28rem;
+        margin-left: -2rem;
+    }
+    .site-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img {
+        width: 250px;
+        height: 150px;
+        margin-left: 1px;
+    }
+}

@@ -89,6 +89,7 @@ a.btn:active, button:active {
   box-shadow: none;
   background: #252525;
   color: #67757c;
+  font-family: Roboto;
  }
 .sidebar ul {
   margin: 20px 0px; }
@@ -161,7 +162,11 @@ a.btn:active, button:active {
   display: block;
   padding-left: 30px;
   line-height: 40px;
-  border-radius: 0; }
+  border-radius: 0;
+}
+.main {
+  font-family: Roboto;
+}
 
 .sidebar ul.nav li.divider {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
