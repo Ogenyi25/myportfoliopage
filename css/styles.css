@@ -16,7 +16,7 @@ body {
   font-size: 40px;
   font-weight: 500;
   height: 60px;
-  padding-top: 18px;
+  padding-top: 1px;
   font-family: Sacramento;
 }
 
@@ -218,6 +218,21 @@ a.btn:active, button:active {
   font-weight: 600;
   border-bottom: 0;
 }
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: -10px;
+  animation: rotation 4s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}  
+
 .fa-user {
   margin-top: 12px;
 }
@@ -260,6 +275,24 @@ a.btn:active, button:active {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .navbar-header .navbar-brand {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    height: 60px;
+    padding-top: 8px;
+    font-family: Sacramento;
+  }
+  .navbar-brand {
+    margin-top: -6.5rem;
+    margin-left: -2rem;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-top: -11px;
+  }
 
   .header-title {
     height: 10rem;
