@@ -32,22 +32,26 @@
     margin: 20px 0px 0px 30px;
 }
 .ranks {
-    margin: 20px;
+    margin: 20px 0px 10px 40px;
+    width: 25rem;
 }
 .ranks-title {
     font-size: 19px;
     font-weight: bolder;
     font-family: Roboto;
 }
+.btn {
+    margin-top: 20px;
+}
 .tutor-info {
-    
+    margin-top: 25rem;
 }
 .tutor-image {
 
 }
 .tutor-pic {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
 }
 .tutor {
@@ -126,7 +130,7 @@
         font-family: Roboto;
     }
     .tutor-info {
-        
+        margin-top: 10rem;
     }
     .tutor-image {
         margin: 50px 0px 0px -70px;
@@ -140,21 +144,23 @@
         font-weight: 500;
         font-family: Roboto;
         margin: 10px -20px 0px 30px;
+        width: 20rem;
     }
     .contact-info-section {
         display: flex;
         margin-top: 100px;
     }
     .contact-info {
-        margin: 0px 0px 20px 5px;
+        margin: 0px 0px 20px 0px;
     }
     .contact-info-head {
         font-size: 18px;
         font-weight: 800;
         margin-bottom: 20px;
+        width: 15rem;
     }
     .social-links {
-        margin-right: 20px;
+        margin-right: 0px 20px 20px;
     }
     .contact-links {
         margin-bottom: 10px;
